@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari per treball.</title>
+    <link rel="stylesheet" href="./fitxer.css">
+</head>
+<body>
+    <h1>FORMULARI TREBALL</h1>
+    <form action="./fin_formulari.html"> <!--El que declarem amb aixo es que ens porti a aquest altre html y que aquest codi es una formulari en html.-->
+        <b>Indica les teves dades</b><br><br>
+        <label for="nom">Nom</label><br> <!--La etiqueta label esta asociada al input on podrem interactuar nosaltres.-->
+        <input  class="w300" type="text" id="nom" name="nom" placeholder="Brian" required><br><br>
+        <label for="cognoms">Cognoms</label><br>
+        <input  class="w300" type="text" id="cognoms" name="cognoms" placeholder="Gonzalez Garcia" required><br><br>
+        <label for="correu_electronic">Correu Electronic</label><br>
+        <input  class="w300" type="email" id="correu_electronic" name="correu_electronic" placeholder="elteucorreu@gmail.com" required><br><br>
+        <label for="telefon">Telefón</label><br>
+        <input type="tel" id="telefon" name="telefon" placeholder="615-342-322" required><br><br>
+        <label for="explicacio">Explican's perque t'interesa el treball.</label><br>
+        <textarea id="explicacio" rows="4" cols="50" placeholder="M'interessa aquest treball perque....." required></textarea><br><br><br>
+        
+        <b>En quin centre comercial vols treballar?</b><br><br>
+        <!--Aqui utilitzem el type de radio, que significa que sera un boto de selecció, com abans, hem utilitzat el label y el input.-->
+        <input type="radio" id="treball_maquinista" name="fav_comercial" value="maquinista"> 
+        <label for="treball_maquinista">La Maquinista</label><br>
+        <input type="radio" id="treball_glories" name="fav_comercial" value="glories">
+        <label for="treball_glories">Glories</label><br>
+        <input type="radio" id="treball_diagonalmar" name="fav_comercial" value="diagonal">
+        <label for="treball_diagonalmar">Diagonal Mar</label><br><br>
+        <!--El que es veu aqui abaix es un desplegable, on se podra seleccionar alguna de las opcions que es posen abaix.-->
+        <label for="jornada">En quina jornada vols treballar?</label><br><br>
+        <select name="jornada" id="jornada">
+            <option value="completa">Jornada Completa</option>
+            <option value="media">Media Jornada</option>
+            <option value="cap_setmana">Cap de setmana</option>
+        </select>
+        <br>
+        <br>
+        <b>Marca les botigues on vulguis treballar</b><br><br>
+        <!--Aqui el type es un checkbox, ara son caselles de selecció,tambe utilitzem el label y input, son imprescindibles per qualsevol part del formulari. -->
+        <input type="checkbox" id="tienda1" name="tienda1" value="DJ_sport">
+        <label for="tienda1">DJ Sport</label><br>
+        <input type="checkbox" id="tienda2" name="tienda2" value="foot locker">
+        <label for="tienda2">Foot locker</label><br>
+        <input type="checkbox" id="tienda3" name="tienda3" value="hollister">
+        <label for="tienda3">hollister</label><br><br>
+        <input class="boton" type="submit" value="enviar"> <!--Aixo es un botó per enviar el formulari-->
+    </form>
+</body>
+</html>

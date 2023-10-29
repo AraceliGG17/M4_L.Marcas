@@ -1,0 +1,22 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0e7e7;
+}
+
+.w300{
+    width: 300px;
+}
+#telefon{
+    width: 100px;
+}
+.boton:hover{
+    background-color: #2fadc4 ;
+}
+.boton{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(155, 119, 76);
+}
+input:focus , textarea:focus{
+    background-color: rgb(221, 101, 211);
+}
