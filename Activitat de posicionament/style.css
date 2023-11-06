@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: darkred;
+    position: sticky;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    padding: 2vw 0vh 0vh 0vh;
+}
+
+h1{
+    margin-top: 1vh;
+    margin-left: 40vw;
+} 
+nav a{
+    color: white;
+    margin-left: 14vw;
+    margin-right: 1vw;
+
+}
+nav{
+    top: 0px;
+    background-color: rgb(18, 3, 61);
+    padding: 2vh 0vw 2vh 0vw;
+}
+main{
+    margin: 2vw;
+    padding: 12vh;
+}
+#section_nosotros{
+    background-color: rgb(135, 102, 139);
+    padding: 2vh;
+    margin: 1vw;
+}
+#section_bambas{
+    background-color:rgb(135, 102, 139);
+    padding: 2vh;
+    margin: 1vw;
+}
+#section_contacto{
+    background-color:rgb(135, 102, 139);
+    padding: 2vh;
+    margin: 1vw;
+}
+footer{
+    color: white;
+    background-color: rgb(15, 7, 65);
+    width: 100vw;
+    padding: 1vh;
+}
+#footer_theBA{
+    margin-left: 40vw;
+}
+div{
+    text-align: center;
+}
+
+
