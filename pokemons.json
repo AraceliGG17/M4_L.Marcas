@@ -1,0 +1,128 @@
+{
+    "pokemons": [
+        {
+            "id": 1,
+            "nombre": "Pikachu",
+            "tipo": [
+                "Eléctrico"
+            ],
+            "peso": 60,
+            "altura": {
+                "valor": 0.4,
+                "unitat": "m"
+            },
+            "estadísticas": {
+                "velocidad": 90,
+                "fuerza": 50,
+                "precisión": 90,
+                "resistencia": 40
+            },
+            "evolucion": [
+                {
+                    "id_pokedex": 0.172,
+                    "nombre": "Pichu"
+                },
+                {
+                    "id_pokedex": 0.025,
+                    "nombre": "Pikachu",
+                    "nivel": "220 hasta la séptima generación y 160 a partir de la octava generación"
+                },
+                {
+                    "id_pokedex": 0.026,
+                    "nombre": "Raichu",
+                    "nivel": "exponiendolo a una piedra trueno fuera de Alola,incluyendo ultraespacio"
+                }
+            ],
+            "movimientos": [
+                {
+                    "nombre": "Rayo",
+                    "descripción": "Un ataque eléctrico que inflige daño.",
+                    "potencia": 50,
+                    "contacto": false
+                },
+                {
+                    "nombre": "Trueno",
+                    "descripción": "Un ataque eléctrico más poderoso que Rayo.",
+                    "potencia": 100,
+                    "contacto": false
+                }
+            ],
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pikachu_%28Pokémon%29.png/220px-Pikachu_%28Pokémon%29.png"
+        },
+        {
+            "id": 0.133,
+            "nombre": "Eevee",
+            "tipo": [
+                "Normal"
+            ],
+            "peso": 6.4,
+            "altura": {
+                "valor": 0.3,
+                "unitat": "m"
+            },
+            "estadísticas": {
+                "velocidad": 55,
+                "fuerza": 55,
+                "precisión": 50,
+                "resistencia": 50
+            },
+            "evolucion": [
+                {
+                    "id_pokedex": 0.134,
+                    "nombre": "Vaporeon",
+                    "nivel": "Necesita 25 caramelos"
+                },
+                {
+                    "id_pokedex": 0.135,
+                    "nombre": "Jolteon",
+                    "nivel": "Necesita piedra trueno"
+                },
+                {
+                    "id_pokedex": 0.136,
+                    "nombre": "Flareon",
+                    "nivel": "Necesita piedra fuego"
+                },
+                {
+                    "id_pokedex": 0.196,
+                    "nombre": "Espeon",
+                    "nivel": "Necesita 220 hasa la septima generacion y 160 a partir de la octava generacion"
+                },
+                {
+                    "id_pokedex": 0.197,
+                    "nombre": "Umbreon",
+                    "nivel": "Necesita 220 hasa la septima generacion y 160 a partir de la octava generacion"
+                },
+                {
+                    "id_pokedex": 0.470,
+                    "nombre": "Leafeon",
+                    "nivel": "necesita una roca musgo"
+                },
+                {
+                    "id_pokedex": 0.471,
+                    "nombre": "Glaceon",
+                    "nivel": "necesita piedra hielo"
+                },
+                {
+                    "id_pokedex": 0.700,
+                    "nombre": "Sylveon",
+                    "nivel": "alcanzando al menos 2 corazones de efecto y conociendo un movimientos de tipo hada"
+                }
+            ],
+            "movimientos": [
+                {
+                    "nombre": "Ataque rápido",
+                    "descripción": "Un ataque físico básico.",
+                    "potencia": 40,
+                    "contacto": true
+                },
+                {
+                    "nombre": "Ataque especial",
+                    "descripción": "Un ataque especial básico.",
+                    "potencia": 40,
+                    "contacto": false
+                }
+            ],
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Eevee_%28Pokémon%29.png/220px-Eevee_%28Pokémon%29.png"
+        }
+    ]
+}
