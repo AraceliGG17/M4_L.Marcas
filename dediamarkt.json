@@ -6,7 +6,7 @@
             "name": "Matebook",
             "company": "Huawei",
             "inches": "13",
-            "stock": "true",
+            "stock": true,
             "price": {
                 "valor": "780",
                 "currency": "€"
@@ -18,7 +18,7 @@
             "name": "Titan",
             "company": "Slimbook",
             "inches": "15.6",
-            "stock": "true",
+            "stock": true,
             "price": {
                 "valor": "1949",
                 "currency": "€"
@@ -30,13 +30,24 @@
             "name": "Matepad",
             "company": "Huawei",
             "inches": "10.4",
-            "stock": "false",
+            "stock": false,
             "price": {
                 "valor": "",
                 "currency": "€"
             },
-            "characteristics": ["5000 mhA battery", "Super AMOLED Plus","USB-C"]
+            "characteristics":""
                 
-        }
+        },
+        {
+            "name": "P50 pocket",
+            "company": "Huawei",
+            "inches": 9,
+            "stock": true,
+            "price": {  "quantity": 999,
+                        "currency": "€",
+                        "discount": "3%"
+            },
+            "characteristics": ["5000 mhA battery", "Super AMOLED Plus","USB-C"]
+        },
     ]
 }
